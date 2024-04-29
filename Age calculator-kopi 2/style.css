@@ -1,0 +1,82 @@
+ 
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #F8F8F8;
+    background-image: url(age-bilde-2.avif);
+    background-size: cover;
+}
+ 
+.container {
+    margin-bottom: 20px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+ 
+.birthday {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .birthday-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(33.33% - 20px);
+    margin: 0 10px;
+    padding: 10px;
+    background-color: rgb(67, 150, 173);
+    color: rgb(125, 47, 47);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .birthday-box label {
+    font-size: 20px;
+    margin-bottom: 5px;
+    
+  }
+  
+ 
+button {
+    margin-top: 8px;
+    margin-bottom: 5px;
+    width: 700px;
+    height: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    font-size: x-large;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+ 
+button:hover {
+    background-color: #45a049;
+}
+ 
+#result {
+    margin-top: 20px;
+    width: 200px;
+    margin: 0 auto;
+    border: 1px solid #CCC;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+ 
+.hidden {
+    display: none;
+}
+ 
+.img {
+    width: auto;
+    height: auto;
+}

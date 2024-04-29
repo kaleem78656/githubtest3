@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <h3>Hei, dette er en enkel nettside for å regne ut hvor gammel du er😄.</h3>
+        <h4>Vennligst skriv inn fødselsdato og trykk på knappen nede.</h4>
+        <h2>Fødselsdato:</h2>
+        <div class="birthday">
+            <div class="birthday-box">
+                <label for="day">Dag:</label>
+                <input type="number" id="day">
+            </div>
+            <div class="birthday-box">
+                <label for="month">Måned:</label>
+                <input type="number" id="month">
+            </div>
+            <div class="birthday-box">
+                <label for="year">År:</label>
+                <input type="number" id="year">
+           </div>
+        </div>
+         <button onclick="calculateAge()">Regn ut min alder</button>
+        <div id="result"></div>
+    </div>
+    <script src="age.js"></script> 
+
+</body>
+</html>
